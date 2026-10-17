@@ -1,174 +1,29 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="杨欣悦，安徽财经大学经济统计学专业大二学生，关注 AI 应用、数据建模与快速原型开发。">
-  <title>杨欣悦｜个人技术主页</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f6f1e8"><title>杨欣悦 / 杨花生 · 经济统计与数据分析</title>
+<meta name="description" content="杨欣悦（杨花生），安徽财经大学经济统计学学生，关注数据分析、统计建模、市场调查与 AI 创新，期待参与黑客松和项目协作。">
+<style>
+:root{--paper:#f6f1e8;--paper2:#fbf8f2;--ink:#263a36;--muted:#6d7770;--jade:#4e7768;--jade2:#dfe9df;--red:#a95f55;--gold:#b48a4b;--line:#d9d8cc;--serif:"FZ XiaoBiaoSong-B05S","FZKai-Z03","STKaiti","KaiTi","Songti SC","SimSun",serif;--sans:"Noto Sans SC","Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.85}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 48px));margin:auto}.top{height:74px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;font-size:13px}.brand{font:18px var(--serif);letter-spacing:.08em}.seal{display:inline-grid;place-items:center;width:30px;height:30px;border:1px solid var(--red);color:var(--red);margin-right:10px;font-size:15px}.nav{display:flex;gap:25px;color:var(--muted);font-size:12px}.nav a:hover{color:var(--jade)}.hero{min-height:620px;display:grid;grid-template-columns:1.06fr .94fr;gap:60px;align-items:center;position:relative}.kicker{font-size:12px;color:var(--jade);letter-spacing:.18em}.hero h1{font:500 clamp(54px,7vw,86px)/1.2 var(--serif);letter-spacing:.06em;margin:22px 0 12px}.hero h1 em{font-style:normal;color:var(--jade)}.motto{font:20px var(--serif);color:var(--red);letter-spacing:.18em;margin:0 0 25px}.lead{max-width:570px;color:#5b6962;font:16px/2 var(--serif)}.actions{display:flex;gap:12px;margin-top:30px}.btn{padding:10px 18px;border:1px solid var(--jade);font-size:13px;transition:.25s}.btn.primary{background:var(--jade);color:#fff}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px #355e4718}.hero-visual{min-height:430px;display:grid;place-items:center;position:relative}.rings{position:absolute;width:370px;aspect-ratio:1;border:1px solid #abc2b4;border-radius:50%;animation:spin 35s linear infinite}.rings:before,.rings:after{content:"";position:absolute;inset:30px;border:1px solid #d2ddd1;border-radius:50%;transform:rotate(55deg) scaleX(.43)}.rings:after{transform:rotate(-55deg) scaleX(.43)}.hero-visual .hero-backview{position:relative;display:block;width:min(100%,490px);height:auto;max-height:390px;object-fit:contain;border:1px solid #c8c8b8;border-radius:14px;box-shadow:0 16px 35px #263a361c;z-index:1}.stamp{position:absolute;right:4%;top:14%;writing-mode:vertical-rl;color:var(--jade);font:14px var(--serif);letter-spacing:.22em;background:#f6f1e8e8;border:1px solid #d9d8cc;border-radius:4px;padding:10px 7px;box-shadow:0 6px 18px #263a3616}.petal{position:absolute;width:9px;height:14px;border-radius:80% 10%;background:#b8cdbb;opacity:.55;animation:float 6s ease-in-out infinite}.p1{left:8%;top:20%}.p2{right:34%;top:13%;background:#d6a39a;animation-delay:-2s}.p3{left:45%;bottom:14%;background:#d6a39a;animation-delay:-4s}
+.proof{padding:48px 0 56px;background:var(--paper2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.proof-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:22px}.proof-head h2{font:500 28px var(--serif);margin:0}.proof-head p{margin:0;color:var(--muted);font-size:13px}.proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.proof-card{display:block;padding:19px 20px;background:#f4f5ed;border:1px solid #e0e3d8;transition:.25s}.proof-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px #29493616}.proof-card small{display:block;color:var(--red);font-size:10px;letter-spacing:.14em;margin-bottom:7px}.proof-card strong{display:block;font:500 18px var(--serif);margin-bottom:5px}.proof-card span{display:block;font-size:12px;line-height:1.7;color:var(--muted)}.proof-card i{display:block;margin-top:12px;color:var(--jade);font:normal 11px var(--sans)}.section{padding:88px 0;border-top:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:32px}.eyebrow{font-size:11px;color:var(--jade);letter-spacing:.2em;display:block;margin-bottom:7px}.title{font:500 34px var(--serif);letter-spacing:.07em;margin:0}.count{font:28px var(--serif);color:#b7c2b6}.intro{display:grid;grid-template-columns:1.08fr .92fr;gap:60px}.intro p{font:18px/2.05 var(--serif);margin:0 0 16px}.intro strong{color:var(--jade);font-weight:500}.aside{background:var(--jade2);padding:25px 28px;border-left:2px solid var(--jade)}.aside h3{font:21px var(--serif);margin:0 0 4px}.aside p{font:14px/1.8 var(--sans);color:var(--muted);margin:0}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}.tag{font-size:12px;color:var(--jade);border-bottom:1px solid #9cb7a3;padding:3px 7px}.meaning{margin-top:32px;padding-top:26px;border-top:1px solid var(--line);font:16px/2 var(--serif);color:#53645c}.meaning b{color:var(--red);font-weight:500}.project{background:#edf2eb}.project-grid{display:grid;grid-template-columns:.83fr 1.17fr;gap:48px;align-items:start}.project-copy h3{font:500 28px var(--serif);margin:0 0 12px}.project-copy p{color:var(--muted);font-size:14px;margin:0 0 13px}.feature-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}.feature{padding:12px 13px;background:#f8f8f1;border:1px solid #dde4da;font:14px var(--serif)}.feature small{display:block;color:var(--jade);font:11px var(--sans);margin-bottom:3px}.project-main{width:100%;max-height:480px;object-fit:contain;background:#e1e5dc;border:1px solid #d6ddd3;cursor:zoom-in}.media-caption{font-size:12px;color:var(--muted);margin:8px 0 0;letter-spacing:.04em}.media-caption strong{font-family:var(--serif);font-size:15px;color:var(--ink);font-weight:500;margin-right:8px}.gallery-label{font:15px var(--serif);color:var(--jade);margin:18px 0 7px}.image-rail{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;padding:5px 2px 16px;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#9bb5a0 #e7e8dd;-webkit-overflow-scrolling:touch}.image-rail:focus-visible,.event-photos:focus-visible{outline:2px solid var(--jade);outline-offset:3px}.image-rail figure{flex:0 0 clamp(230px,28vw,320px);margin:0;scroll-snap-align:start}.image-rail img{display:block;width:100%;height:190px;object-fit:contain;background:#ecebe3;border:1px solid #dcded3;cursor:zoom-in}.image-rail figcaption{font-size:12px;color:var(--muted);padding:8px 2px 0;line-height:1.6}.project-gallery{min-width:0}.project-gallery .gallery-label{font:15px var(--serif);color:var(--jade);margin:0 0 8px}.event-photos{display:flex;gap:12px;overflow-x:auto;overflow-y:hidden;padding:5px 2px 15px;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#9bb5a0 #e7e8dd;-webkit-overflow-scrolling:touch}.event-photos figure{flex:0 0 min(82%,350px);margin:0;scroll-snap-align:start}.event-photos img{display:block;width:100%;height:220px;object-fit:contain;background:#e8e7df;border:1px solid #deddd3;cursor:zoom-in}.event-photos figcaption{font-size:12px;color:var(--muted);padding:7px 2px}.activity-group .image-rail{margin-top:8px}.activity-group .image-rail figure{flex-basis:min(100%,320px)}.activity-group .image-rail img{height:210px}.activity-groups{display:grid;grid-template-columns:1fr 1fr;gap:32px}.activity-group{border-top:1px solid #aebcaf;padding-top:14px}.activity-group h3{font:500 21px var(--serif);margin:0 0 4px}.activity-group p{font-size:13px;color:var(--muted);margin:0 0 10px}.event-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px}.event{border-top:1px solid #aebcaf;padding-top:20px}.event h3{font:500 25px var(--serif);margin:0 0 8px}.event p{font-size:14px;color:var(--muted);margin:0 0 16px}.awards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.award-note{margin:-18px 0 20px;color:var(--muted);font-size:13px}.award-lines-title{font:500 22px var(--serif);margin:34px 0 10px}.award{background:var(--paper2);border:1px solid #e1ded3;overflow:hidden;transition:.25s}.award:hover{transform:translateY(-4px);box-shadow:0 15px 28px #334b3612}.award img{display:block;width:100%;height:230px;object-fit:contain;background:#ebe9df;cursor:zoom-in}.award-body{padding:14px 16px}.award-body time{font-size:11px;color:var(--red)}.award-body h3{font:500 17px var(--serif);margin:5px 0}.award-body p{margin:0;font-size:12px;color:var(--muted)}.award-lines{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin-top:30px;border-top:1px solid var(--line)}.award-line{display:grid;grid-template-columns:87px 1fr;padding:13px 0;border-bottom:1px solid var(--line);font-size:13px}.award-line time{color:var(--red);font-size:11px}.award-line span{color:var(--muted)}.growth{display:grid;grid-template-columns:1fr 1fr;gap:54px}.growth h3{font:500 25px var(--serif);margin:0 0 10px}.growth p{font-size:14px;color:var(--muted)}.timeline{display:grid;grid-template-columns:1fr 1fr;gap:18px}.tl{border-top:1px solid #aebcaf;padding-top:12px}.tl time{font-size:11px;color:var(--red)}.tl h4{font:500 16px var(--serif);margin:5px 0}.tl p{font-size:12px;margin:0;color:var(--muted)}.contact{display:flex;align-items:center;justify-content:space-between;gap:30px}.contact h2{font:500 34px/1.5 var(--serif);margin:0}.contact h2 em{font-style:normal;color:var(--jade)}.mail{background:var(--jade);color:#fff;padding:13px 20px;font-size:13px}.mail:hover{background:#396453}footer{padding:25px 0 38px;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:#89948d;font-size:11px;letter-spacing:.1em}.lightbox{position:fixed;inset:0;background:#17221ee8;display:none;place-items:center;padding:24px;z-index:5;cursor:zoom-out}.lightbox.open{display:grid}.lightbox img{max-width:96vw;max-height:90vh;object-fit:contain;box-shadow:0 20px 60px #0008}.close{position:absolute;right:22px;top:14px;color:white;background:none;border:0;font-size:30px;cursor:pointer}@keyframes spin{to{transform:rotate(360deg)}}@keyframes float{50%{transform:translateY(-16px) rotate(8deg)}}@media(max-width:760px){.wrap{width:calc(100% - 34px)}.top{height:66px}.nav{max-width:64vw;gap:12px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}.nav::-webkit-scrollbar{display:none}.nav a{font-size:10px;flex:0 0 auto}.hero{grid-template-columns:1fr;gap:10px;padding:56px 0 70px;min-height:0}.hero h1{font-size:58px}.hero-visual{height:auto;min-height:0;padding:12px 0 18px}.rings{width:285px}.hero-visual .hero-backview{width:min(100%,520px);height:auto;max-height:none}.section{padding:62px 0}.title{font-size:29px}.intro,.project-grid,.event-grid,.growth,.activity-groups{grid-template-columns:1fr;gap:30px}.proof-grid{grid-template-columns:1fr}.proof-head{display:block}.proof-head p{margin-top:6px}.intro p{font-size:17px}.image-rail figure{flex-basis:min(78vw,285px)}.event-photos figure{flex-basis:min(82vw,320px)}.event-photos img{height:185px}.activity-group .image-rail img{height:180px}.awards{grid-template-columns:1fr 1fr}.award img{height:210px}.award-lines{grid-template-columns:1fr}.contact{display:block}.mail{display:inline-block;margin-top:18px}footer{display:block}footer span{display:block;margin-top:8px}}@media(max-width:430px){.brand{font-size:15px}.nav{max-width:58vw;gap:10px}.hero h1{font-size:51px}.actions{flex-wrap:wrap}.awards{grid-template-columns:1fr}.timeline{grid-template-columns:1fr}}
+</style></head>
 <body>
-  <div class="page-grain" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="杨欣悦个人主页">
-      <span class="brand-seal">悦</span>
-      <span class="brand-name">杨欣悦<small>YANG XINYUE</small></span>
-    </a>
-    <nav aria-label="主导航">
-      <a href="#about">关于我</a>
-      <a href="#project">代表项目</a>
-      <a href="#honors">竞赛荣誉</a>
-      <a href="#experience">校园经历</a>
-      <a href="#contact">联系</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">人工智能应用 · 数据建模 · 快速原型</p>
-        <h1>以好奇为始，<br><em>让想法落地。</em></h1>
-        <p class="hero-intro">我是杨欣悦，安徽财经大学经济统计学专业大二学生，关注 AI 应用、数据建模与产品原型。喜欢从真实问题出发，在有限时间内拆解需求、验证方案，并把思考交付成可以运行的作品。</p>
-        <div class="button-row">
-          <a class="button primary" href="#project">阅览作品</a>
-          <a class="button quiet" href="https://github.com/yang-huasheng" target="_blank" rel="noreferrer">GitHub ↗</a>
-        </div>
-      </div>
-      <aside class="hero-card" aria-label="个人概览">
-        <div class="moon-mark" aria-hidden="true"></div>
-        <p class="card-caption">PERSONAL PROFILE</p>
-        <blockquote>“不止提出想法，也愿意把它做出来、测出来，再继续改进。”</blockquote>
-        <dl>
-          <div><dt>目前身份</dt><dd>安徽财经大学 · 经济统计学</dd></div>
-          <div><dt>实践方向</dt><dd>AI 应用与数据建模</dd></div>
-          <div><dt>开发方式</dt><dd>快速原型与迭代验证</dd></div>
-          <div><dt>当前成果</dt><dd>省级二等奖 · 黑客松三等奖</dd></div>
-        </dl>
-      </aside>
-    </section>
-
-    <section class="section" id="about">
-      <header class="section-heading">
-        <p><span>壹</span> ABOUT ME</p>
-        <h2>从竞赛实践中，逐渐找到自己的方向。</h2>
-      </header>
-      <div class="about-layout">
-        <div class="about-copy">
-          <p class="lead">作为经济统计学专业学生，我的大学实践横跨 AI 产品开发、统计与数学建模、金融创新和校园组织工作。这些经历让我逐渐形成了一套朴素的方法：先理解问题，再选择工具，最后用真实结果验证判断。</p>
-          <p>我仍处于持续学习和积累阶段。相比用“精通”概括自己，我更愿意展示已经完成的项目、走过的过程和能够复核的成果。</p>
-        </div>
-        <div class="numbers" aria-label="经历概览">
-          <article><strong>01</strong><span>独立获奖<br>黑客松项目</span></article>
-          <article><strong>06</strong><span>技术与创新类<br>竞赛奖项</span></article>
-          <article><strong>省二</strong><span>当前最高<br>竞赛荣誉</span></article>
-        </div>
-      </div>
-      <div class="capability-grid">
-        <article><span>01</span><h3>快速原型</h3><p>将模糊需求拆成可实现模块，借助 AI 编程工具提高开发效率，并完成整合、测试与交付。</p></article>
-        <article><span>02</span><h3>数据思维</h3><p>持续参与统计建模、数学建模与金融创新竞赛，关注从问题抽象到结果解释的完整过程。</p></article>
-        <article><span>03</span><h3>组织协作</h3><p>从协会干事成长为副会长兼团支书，在竞赛参与之外积累组织协调与责任承担经验。</p></article>
-      </div>
-    </section>
-
-    <section class="section project-section" id="project">
-      <header class="section-heading">
-        <p><span>贰</span> FEATURED PROJECT</p>
-        <h2>代表项目</h2>
-      </header>
-
-      <article class="featured-project">
-        <div class="project-title-row">
-          <div>
-            <p class="project-kicker">个人项目 · 校园黑客松三等奖</p>
-            <h3>情绪盒子</h3>
-            <p class="project-subtitle">一款围绕日常情绪记录、自我觉察与轻量陪伴设计的响应式网页原型。</p>
-          </div>
-          <div class="award-seal"><strong>三等奖</strong><span>奖金 ¥300</span></div>
-        </div>
-
-        <div class="project-stats">
-          <article><strong>个人</strong><span>独立项目</span></article>
-          <article><strong>4 h</strong><span>赛前构思准备</span></article>
-          <article><strong>1 下午</strong><span>现场完整交付</span></article>
-          <article><strong>18 种</strong><span>情绪记录类型</span></article>
-        </div>
-
-        <div class="project-story">
-          <div>
-            <h4>问题与构想</h4>
-            <p>面对日常情绪难以持续记录、负面感受缺乏出口的问题，我将产品划分为“记录—回顾—理解—释放—珍藏”五个环节，希望以温和、低门槛的方式帮助用户看见自己的情绪变化。</p>
-          </div>
-          <div>
-            <h4>我的实践</h4>
-            <p>赛前约 4 小时完成构思与准备，比赛现场用一个下午独立完成可演示版本。使用 Trae 辅助需求拆解、代码生成和调试，由本人负责产品取舍、指令设计、代码整合、功能验证与现场交付。</p>
-          </div>
-        </div>
-
-        <div class="feature-list">
-          <article><span>记录</span><h4>情绪与日记</h4><p>18 种情绪选择、强度记录、日记编辑、收藏、搜索与历史回顾。</p></article>
-          <article><span>看见</span><h4>数据可视化</h4><p>通过情绪分布、趋势曲线、热力图和日历视图呈现变化。</p></article>
-          <article><span>疏导</span><h4>双向情绪盒</h4><p>定时释放负面情绪，同时收藏积极事件与生活中的小美好。</p></article>
-          <article><span>陪伴</span><h4>人格适配回复</h4><p>结合关键词和人格偏好生成本地规则回复，验证陪伴交互思路。</p></article>
-        </div>
-
-        <div class="project-bottom">
-          <div class="tech-stack">
-            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>localStorage</span><span>Web Crypto API</span><span>Trae</span>
-          </div>
-          <div class="button-row">
-            <a class="button primary" href="https://yang-huasheng.github.io/emotion-box/main.html" target="_blank" rel="noreferrer">在线体验 ↗</a>
-            <a class="button quiet" href="https://github.com/yang-huasheng/emotion-box" target="_blank" rel="noreferrer">查看代码 ↗</a>
-          </div>
-        </div>
-        <p class="truth-note">注：当前“AI陪伴”为关键词识别与人格规则驱动的原型，尚未接入在线大模型服务。</p>
-      </article>
-    </section>
-
-    <section class="section" id="honors">
-      <header class="section-heading heading-inline">
-        <div><p><span>叁</span> HONORS</p><h2>竞赛与荣誉</h2></div>
-        <p class="heading-note">从建模、AI 金融到创新实践，以真实赛事检验学习成果。</p>
-      </header>
-      <div class="honor-list">
-        <article class="honor-primary">
-          <time>2026.06</time>
-          <div><h3>安徽省大学生金融投资创新大赛</h3><p>目前级别最高的竞赛成果</p></div>
-          <strong>省级二等奖</strong>
-        </article>
-        <article><time>2026.05</time><div><h3>AI 金融大赛</h3><p>人工智能与金融场景实践</p></div><strong>校级三等奖</strong></article>
-        <article><time>2026.05</time><div><h3>统计建模大赛</h3><p>数据分析与模型构建实践</p></div><strong>校级三等奖</strong></article>
-        <article><time>2026.05</time><div><h3>大学生数学建模</h3><p>复杂问题抽象与量化分析</p></div><strong>校级三等奖</strong></article>
-        <article><time>2026.04</time><div><h3>“挑战杯”</h3><p>创新项目与综合实践</p></div><strong>校级三等奖</strong></article>
-      </div>
-      <div class="service-note"><span class="mini-seal">志</span><div><h3>公共参与</h3><p>持续参与校园与城市公共志愿服务，三次获评优秀志愿者，在技术竞赛之外保持服务意识、现场协作与责任担当。</p></div></div>
-    </section>
-
-    <section class="section experience-section" id="experience">
-      <header class="section-heading heading-inline">
-        <div><p><span>肆</span> CAMPUS LEADERSHIP</p><h2>校园组织经历</h2></div>
-        <p class="heading-note">兴趣不仅停留在参赛，也延伸到竞赛服务与协会建设。</p>
-      </header>
-      <div class="timeline">
-        <article class="timeline-main">
-          <time>大一学年末 · 竞选当选</time>
-          <div><p class="role-badge">核心任职</p><h3>统计建模与市场调研协会</h3><h4>副会长兼团支书</h4><p>大一期间从竞赛部干事做起，参与竞赛相关工作；学年末通过竞选担任协会副会长兼团支书，继续参与组织协调、竞赛服务与团务工作。</p></div>
-        </article>
-        <div class="timeline-minor">
-          <article><time>大一期间</time><h3>大学生数学建模协会</h3><p>实践部干事</p></article>
-          <article><time>大一期间</time><h3>大学生金融投资协会</h3><p>活动部干事</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <span class="large-seal">悦</span>
-      <p class="eyebrow">CONTACT · 保持联系</p>
-      <h2>愿在真实问题中学习，<br>也在每一次实践中生长。</h2>
-      <p>欢迎交流 AI 应用、数据建模、竞赛实践与产品原型。</p>
-      <div class="button-row centered"><a class="button primary" href="https://github.com/yang-huasheng" target="_blank" rel="noreferrer">访问 GitHub ↗</a><a class="email-placeholder" href="mailto:yhs0610@qq.com" aria-label="通过邮件联系杨欣悦">联系 ↗</a></div>
-    </section>
-  </main>
-
-  <footer><span>© 2026 杨欣悦</span><span>清简 · 求真 · 笃行</span><span>GitHub：yang-huasheng</span></footer>
-</body>
-</html>
+<header class="top wrap"><a class="brand" href="#top"><span class="seal">欣</span>杨欣悦 · 杨花生</a><nav class="nav"><a href="#proof">代表成果</a><a href="#project">项目</a><a href="#practice">经历</a><a href="#awards">荣誉</a><a href="#contact">联系</a></nav></header>
+<main id="top">
+<section class="hero wrap"><span class="petal p1"></span><span class="petal p2"></span><span class="petal p3"></span><div><div class="kicker">期待黑客松与项目协作 · 数据分析 / 统计建模</div><h1>你好，我是<br><em>杨花生。</em></h1><p class="motto">繁花似锦 · 生生不息</p><p class="lead">我叫杨欣悦，安徽财经大学经济统计学专业 2025 级学生。以经济统计为起点，关注数据分析、统计建模与市场调查；既喜欢拆解问题、寻找数据线索，也愿意走进团队协作与校园实践。期待在黑客松和跨学科项目中，与伙伴一起把问题分析清楚，把方案认真做出来。</p><div class="actions"><a class="btn primary" href="#proof">查看代表成果 ↓</a><a class="btn" href="#project">了解情绪盒子</a><a class="btn" href="mailto:yhs0610@qq.com">联系我 ↗</a></div></div><div class="hero-visual"><div class="rings"></div><img class="hero-backview" src="assets/hero-backview.jpg" alt="绿荫林间的女生背影照片"><span class="stamp">以好奇心为种<br>以行动作答</span></div></section>
+<section class="proof" id="proof"><div class="wrap"><div class="proof-head"><div><small class="eyebrow">SELECTED RESULTS</small><h2>代表成果</h2></div><p>从个人创作到竞赛与校园协作</p></div><div class="proof-grid"><a class="proof-card" href="#project"><small>01 · PERSONAL PROJECT</small><strong>情绪盒子 · Trae AI 黑客松三等奖</strong><span>个人创作，兼任赛事工作人员；项目获奖并获得 300 元奖金。</span><i>查看项目介绍 ↗</i></a><a class="proof-card" href="#awards"><small>02 · PROVINCIAL AWARD</small><strong>金融投资与数学建模 · 省级二等奖</strong><span>获国元证券杯安徽省大学生金融投资创新大赛省级二等奖，并获全国大学生数学建模大赛省二等奖。</span><i>查看荣誉档案 ↗</i></a><a class="proof-card" href="#about"><small>03 · CAMPUS LEADERSHIP</small><strong>协会副会长 · 团支书</strong><span>参与统计建模与市场调查协会工作，在组织、沟通与团队协作中持续成长。</span><i>了解个人经历 ↗</i></a></div></div></section><section class="section" id="about"><div class="wrap"><div class="section-head"><h2 class="title"><small class="eyebrow">ABOUT ME</small>关于我</h2><span class="count">一 / 四</span></div><div class="intro"><div><p>我在安徽财经大学统计与应用数学学院学习<strong>经济统计学</strong>，现任统计建模与市场调查协会副会长兼团支书。专业训练让我习惯从数据出发，竞赛与校园实践则让我不断练习如何把分析转化为可沟通、可执行的方案。</p><p>我喜欢数据分析，也在意一个人的全面成长：既愿意钻研模型、市场调查和 AI 工具，也愿意承担组织、沟通与协作的责任，在不同角色中理解问题、连接伙伴、推进事情发生。</p><div class="tags"><span class="tag">经济统计</span><span class="tag">数据分析</span><span class="tag">统计建模</span><span class="tag">市场调查</span><span class="tag">AI 创新</span><span class="tag">团队协作</span></div></div><aside class="aside"><h3>我的学习坐标</h3><p>安徽财经大学<br>统计与应用数学学院 · 2025级<br>经济统计学</p><p style="margin-top:15px">统计建模与市场调查协会<br>副会长 · 团支书</p></aside></div><div class="meaning"><b>名字解析：</b>“花”取自繁花似锦，愿生活明媚丰盛、保有热忱与包容；“生”取自生生不息，代表扎根生长、持续突破。杨花生，既是花开时的光彩，也是向前生长的力量。</div></div></section>
+<section class="section project" id="project"><div class="wrap"><div class="section-head"><h2 class="title"><small class="eyebrow">PERSONAL PROJECT</small>情绪盒子</h2><span class="count">二 / 四</span></div><div class="project-grid"><div class="project-copy"><h3>给情绪一个被看见的空间</h3><p>“情绪盒子”是我个人创作的校园情绪支持项目，面向大学生与校园工作人员。第一次进入时，用户可以完成 MBTI 与霍兰德职业兴趣测试，项目再结合性格倾向与当下情绪，提供更有针对性的疏导内容。</p><p>它把情绪记录、日历回看、心情统计、AI 陪伴和心灵语句放进一个轻量的数字空间，让“记录感受”成为认识自己、照顾自己的开始。</p><div class="feature-list"><div class="feature"><small>01 · 了解自己</small>MBTI × 霍兰德双测试</div><div class="feature"><small>02 · 记录变化</small>情绪日记与心情日历</div><div class="feature"><small>03 · 温柔回应</small>个性化语句与 AI 陪伴</div><div class="feature"><small>04 · 看见趋势</small>心情统计与自我回顾</div></div></div><div class="project-gallery"><div class="gallery-label">代表界面 · 左右滑动浏览</div><div class="image-rail" tabindex="0" role="group" aria-label="情绪盒子精选界面截图，可横向滚动浏览"><figure><img src="assets/emotion/add6bc96215a885f4ed053035e8b5ed9.png" alt="情绪盒子首次进入与 MBTI、霍兰德测试"><figcaption>初次进入 · MBTI 与霍兰德职业兴趣测评</figcaption></figure><figure><img src="assets/emotion/455510a4ec865937d965d0f2e6f41662.png" alt="情绪盒子今日情绪选择界面"><figcaption>情绪识别 · 从当下感受开始</figcaption></figure><figure><img src="assets/emotion/2b181276dd09a7e1794f5b209c8ef0ab.png" alt="情绪盒子情绪日记界面"><figcaption>日常记录 · 写下情绪与想法</figcaption></figure><figure><img src="assets/emotion/微信图片_20260524152850_729_2.png" alt="情绪盒子 AI 陪伴界面"><figcaption>温柔回应 · AI 陪伴与安抚语句</figcaption></figure><figure><img src="assets/emotion/微信图片_20260524152914_730_2.png" alt="情绪盒子心情统计界面"><figcaption>数据回看 · 心情趋势与记录统计</figcaption></figure></div></div></div></div></section>
+<section class="section" id="practice"><div class="wrap"><div class="section-head"><h2 class="title"><small class="eyebrow">PRACTICE</small>在现场学习</h2><span class="count">三 / 四</span></div><div class="event-grid"><article class="event"><h3>Trae AI 校内黑客松</h3><p>作为参赛选手与工作人员参与校园黑客松，个人创作“情绪盒子”并获得三等奖及 300 元奖金；同时参与赛事组织与现场协作，完整经历了从想法、制作到展示的过程。</p><div class="gallery-label">Trae AI 黑客松现场 · 左右滑动浏览</div><div class="event-photos" tabindex="0" role="group" aria-label="Trae AI 校内黑客松现场照片，可横向滚动浏览"><figure><img src="assets/events/trae/18986049979fb9681c31a4d644112062.jpg" alt="Trae AI 校内黑客松集体现场"><figcaption>Trae AI 校内黑客松现场</figcaption></figure><figure><img src="assets/events/trae/f97305d562e71d7559a2216381a0f25b.jpg" alt="获奖留念，三等奖与 300 元奖金"><figcaption>获奖记录 · 三等奖与 300 元奖金</figcaption></figure></div></article><article class="event"><h3>数学建模黑客松</h3><p>参与筹办数学建模黑客松大赛，担任工作人员。在赛程设计、现场协调与参赛服务中，继续理解一场比赛如何被认真地组织起来，也在多种场地与协作场景中积累赛事经验。</p><div class="gallery-label">数学建模黑客松记录 · 左右滑动浏览</div><div class="event-photos" tabindex="0" role="group" aria-label="数学建模黑客松现场与活动记录照片，可横向滚动浏览"><figure><img src="assets/events/math/242807d04d27b1847a211baa4b460618.jpg" alt="数学建模黑客松现场协作"><figcaption>赛场服务与现场协作</figcaption></figure><figure><img src="assets/events/math/918f7b363c8c498d432f3426208672ab.jpg" alt="数学建模黑客松现场交流与协作"><figcaption>活动现场 · 赛程交流与服务</figcaption></figure><figure><img src="assets/events/math/0034c509e2acf623c1bfc3f056423eac.jpg" alt="玄武大模型活动场地照片"><figcaption>玄武大模型 · 活动场地</figcaption></figure><figure><img src="assets/events/math/801691ab61a6e1d30a3c37aad1d61d25.jpg" alt="Math Hackathon 2026 会场大屏照片"><figcaption>Math Hackathon 2026 · 会场大屏</figcaption></figure><figure><img src="assets/events/math/abba9f52c71e3d13b036942e46d548dd.jpg" alt="江苏国际数据港活动场地照片"><figcaption>江苏国际数据港 · 活动场地</figcaption></figure><figure><img src="assets/events/math/117fb0dcedd905fe3fd59473c8b2f1da.jpg" alt="数学建模黑客松参赛者现场交流照片"><figcaption>参赛者现场 · 交流与协作</figcaption></figure><figure><img src="assets/events/math/c94a56330d6350202f1ea409d9575a3f.jpg" alt="Math Hackathon 2026 闭幕式大合照"><figcaption>闭幕式 · Math Hackathon 2026 大合照</figcaption></figure><figure><img src="assets/events/math/ff37c1a3b880a81501bcc2c7b597dc90.jpg" alt="Math Hackathon 2026 活动鸣谢页，特别鸣谢杨欣悦"><figcaption>活动鸣谢页 · 特别鸣谢杨欣悦</figcaption></figure></div></article></div></div></section>
+<section class="section" id="awards"><div class="wrap"><div class="section-head"><h2 class="title"><small class="eyebrow">AWARDS & CERTIFICATES</small>荣誉与获奖证书</h2><span class="count">四 / 四</span></div><p class="award-note">六张获奖证书完整展示 · 点击图片查看完整原件</p><div class="awards" aria-label="全部获奖证书"><article class="award"><img src="assets/awards/2026年9月节能减排.jpg" alt="第十九届全国大学生节能减排社会实践与科技竞赛校内选拔赛三等奖证书"><div class="award-body"><time>2026 · 09</time><h3>全国大学生节能减排竞赛</h3><p>社会实践与科技竞赛校内选拔赛三等奖</p></div></article><article class="award"><img src="assets/awards/2026年8月AI金融大赛.jpg" alt="全国大学生 AI 金融大赛校内选拔赛三等奖证书"><div class="award-body"><time>2026 · 08 发证</time><h3>全国大学生 AI 金融大赛</h3><p>2025 年赛事 · 校内选拔赛三等奖</p></div></article><article class="award"><img src="assets/awards/2026年6月国元证卷杯.jpg" alt="国元证券杯安徽省大学生金融投资创新大赛二等奖证书"><div class="award-body"><time>2026 · 06</time><h3>“国元证券杯”</h3><p>金融投资创新大赛公司上市可行性分析组二等奖</p></div></article><article class="award"><img src="assets/awards/2026年6月数学建模校内选拔赛.jpg" alt="全国大学生数学建模竞赛校内选拔赛三等奖证书"><div class="award-body"><time>2026 · 06</time><h3>全国大学生数学建模竞赛</h3><p>校内选拔赛三等奖</p></div></article><article class="award"><img src="assets/awards/2026年5月统计建模大赛.jpg" alt="全国大学生统计建模大赛校内选拔赛三等奖证书"><div class="award-body"><time>2026 · 05</time><h3>全国大学生统计建模大赛</h3><p>校内选拔赛三等奖</p></div></article><article class="award"><img src="assets/awards/2026年4月挑战杯.jpg" alt="挑战杯中国大学生创业计划竞赛校内选拔赛三等奖证书"><div class="award-body"><time>2026 · 04</time><h3>“挑战杯”中国大学生创业计划竞赛</h3><p>校内选拔赛三等奖</p></div></article></div><h3 class="award-lines-title">其他竞赛与校园荣誉</h3><div class="award-lines"><div class="award-line"><time>2026 · 09</time><span>安徽省大学生 AI+ 信息素养大赛校内选拔赛三等奖</span></div><div class="award-line"><time>2026</time><span>全国大学生数学建模大赛省二等奖</span></div><div class="award-line"><time>2026 · 05</time><span>安徽省大学生统计建模大赛校内选拔赛三等奖</span></div><div class="award-line"><time>2026 · 05</time><span>“见字如面，信笺寄情”校优秀奖</span></div><div class="award-line"><time>2026 · 01</time><span>全国大学生职业规划大赛院级三等奖</span></div><div class="award-line"><time>2025 · 11</time><span>安徽财经大学田径运动会优秀志愿者</span></div><div class="award-line"><time>2025 · 09</time><span>本科新生军训优秀学员</span></div></div></div></section>
+<section class="section"><div class="wrap"><div class="growth"><div><h3>把专业放进真实生活</h3><p>我期待在数据分析、商业研究、统计建模与 AI 应用的交叉处继续学习，也愿意在团队中承担从调研、分析到表达和执行的完整链路。对我来说，全面发展不是把每件事都做得相同，而是让思考、沟通、行动彼此支持。</p></div><div class="timeline"><div class="tl"><time>01</time><h4>专业学习</h4><p>经济统计 · 建模训练 · 市场调查</p></div><div class="tl"><time>02</time><h4>校园组织</h4><p>协会副会长 · 团支书 · 赛事工作人员</p></div><div class="tl"><time>03</time><h4>实践表达</h4><p>把个人创意讲清楚、做出来、展示好</p></div><div class="tl"><time>04</time><h4>持续成长</h4><p>保持好奇，持续复盘，向真实问题靠近</p></div></div></div></div></section>
+<section class="section"><div class="wrap"><div class="section-head"><h2 class="title"><small class="eyebrow">CAMPUS & LEARNING</small>在校园中参与，也向新知靠近</h2></div><p style="max-width:760px;color:var(--muted);font-size:14px;margin:-14px 0 24px">从协会活动与同伴协作，到量子计算相关的线下学习，我愿意保持开放，在课堂之外持续拓展对统计、技术与现实应用的理解。</p><div class="activity-groups"><div class="activity-group"><h3>统计建模与市场调查协会</h3><p>协会招新与校园组织工作，记录我在沟通、组织和协作中的实践。</p><div class="image-rail" tabindex="0" role="group" aria-label="协会活动照片"><figure><img src="assets/activities/association/41bd224fb29878d7631a2bf28e41f672.jpg" alt="统计建模与市场调查协会招新宣讲"><figcaption>协会招新宣讲与组织交流</figcaption></figure></div></div><div class="activity-group"><h3>本源量子线下学习</h3><p>在专业学习之外接触量子计算相关内容，保持对新技术的兴趣与观察。</p><div class="image-rail" tabindex="0" role="group" aria-label="本源量子学习交流照片"><figure><img src="assets/activities/quantum/7eaa6247848587ee0c72a9835a36cc6b.jpg" alt="本源量子线下学习合影"><figcaption>本源量子线下学习交流</figcaption></figure></div></div></div></div></section><section class="section" id="contact"><div class="wrap contact"><h2>愿与认真做事的人<br><em>一起把想法变成作品。</em></h2><a class="mail" href="mailto:yhs0610@qq.com">yhs0610@qq.com ↗</a></div></section>
+</main><footer class="wrap"><span>杨欣悦 · 杨花生</span><span>繁花似锦，生生不息 · 2026</span></footer>
+<div class="lightbox" id="lightbox"><button class="close" aria-label="关闭">×</button><img alt="原图预览"></div>
+<script>
+const box=document.getElementById('lightbox'), preview=box.querySelector('img');
+document.querySelectorAll('img[src]').forEach(img=>img.addEventListener('click',()=>{preview.src=img.src;preview.alt=img.alt;box.classList.add('open')}));
+box.addEventListener('click',e=>{if(e.target===box||e.target.classList.contains('close'))box.classList.remove('open')});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')box.classList.remove('open')});
+</script></body></html>
